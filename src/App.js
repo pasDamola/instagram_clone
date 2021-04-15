@@ -1,5 +1,5 @@
 import './App.css';
-import { firebase } from './lib/firebase'
+import { firebase, FieldValue } from './lib/firebase'
 
 function App() {
   return (

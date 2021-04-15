@@ -8,6 +8,7 @@ const config = {
     appId: "1:393111567592:web:abffdf3b574576c2eddd5d"
   };
   
-  const firebase = window.firebase.initializeApp(config)
+  const firebase = window.firebase.initializeApp(config);
+  const { FieldValue } = window.firebase.firestore;
   
-  export { firebase }
+  export { firebase, FieldValue };
